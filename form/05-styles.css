@@ -722,11 +722,11 @@
   padding: 1rem;
   margin: 0;
   background-color: var(--color-white);
+  transition: .3s;
 }
 
 .form-group:focus-within {
   background-color: var(--color-light-grey);
-  transition: .3s;
 }
 
 /* Form field
