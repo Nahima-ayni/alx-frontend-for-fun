@@ -1,0 +1,11 @@
+// 5-nested_child.scss
+
+body {
+  // Default text color for all elements inside body
+  color: #3D3D3D;
+
+  // Nested rule for .red elements that are direct children of body
+  > .red {
+    color: #FF0000;
+  }
+}
