@@ -3,8 +3,7 @@
 button {
   color: #FF0000;
 
-  // Nested rule for button hover state
-  button:hover {
+  &:hover {
     color: #00FF00;
   }
 }
