@@ -1,0 +1,10 @@
+//Nested class
+
+body {
+  color: #3D3D3D;
+
+  // Nested rule for elements with class .red inside body
+  .red {
+    color: #FF0000;
+  }
+}
